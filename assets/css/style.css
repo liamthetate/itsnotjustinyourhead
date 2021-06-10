@@ -1,7 +1,28 @@
-.align-right {
-    align-content: flex-end;
+.navbar {
+    border-bottom: 1px solid black;
+    display: flexbox;
+    background-color: #fff;
 }
 
-.green {
-    color: green;
+.uppercase {
+    text-transform: uppercase;
 }
+
+.logo-font {
+    font-family: 'Mate SC', sans-serif;
+    font-weight: 200;
+
+/*---
+Roboto
+Ubuntu - cool!
+Mate   - bit cheap
+Mate SC
+Bebas Neue - bit cheap
+Teko
+Source Serif Pro
+--*/
+
+}
+
+
+
