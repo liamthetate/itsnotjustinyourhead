@@ -1,5 +1,6 @@
 /*----------------------------------------- NavBar */
 
+
 .no-curve {
     border-radius: 0;
 }
@@ -36,7 +37,7 @@ Source Serif Pro
 
 .navbar-brand {
     /*- Keeps text good size on really small screen -*/
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 
 /*----------------------------------------- Colours */
@@ -69,6 +70,12 @@ a:hover {
     text-decoration: none;
 }
 
+.navbar-light .icon-color {
+    /*- Icon color with gradient -*/
+    background: -webkit-linear-gradient(rgb(255, 217, 0), rgb(233, 105, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 /*----------------------------------------- Formatting Text */
 
@@ -81,14 +88,9 @@ a:hover {
 
 
 
-.support-us-buttons {
-    display: flex;
-    align-items: center;
-}
-
 /*----------------------------------------- Hover.css FX */
 .hvr-underline-from-left:before {
-    background-color: #ffced1;
+    background-color: rgb(255, 217, 0); 
 }
 
 /*----------------------------------------- Footer */
@@ -103,3 +105,35 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+/*-- MEDIA */
+
+@media (min-width: 0px) and (max-width: 250px) { 
+    
+    .navbar-brand {
+        /*- Keeps text good size on really small screen -*/
+        font-size: 1rem;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .nav-item {
+        flex-direction: row;
+    }
+
+    .col-sm {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .row {
+        flex-wrap: nowrap;
+    }
+    
+
+ }

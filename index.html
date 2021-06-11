@@ -30,10 +30,35 @@
 
     <nav class="navbar navbar-light sticky-top">
         <a class="navbar-brand logo-font uppercase" href="#"> <!-- FILL IN! -->
-            <i class="fas fa-adjust"></i> It's Not Just In Your Head</a>
+            <!-- <i class="fas fa-adjust icon-color"></i> It's Not Just In Your Head</a> --> 
+           <i class="fas fa-burn icon-color"></i> It's Not Just In Your Head</a> 
+
+           <!-- Navigation Menu for small screens -->
+        <div>
+            <div class="navbar-nav d-sm-none row">
+              <div class="nav-item hvr-underline-from-left col-sm">
+                <a class="nav-link" href="#">
+                <i class="fas fa-microphone"></i></a>
+                </div>
+              
+              <div class="nav-item hvr-underline-from-left col-sm">
+                <a class="nav-link" href="#">
+                <i class="fas fa-info-circle"></i></a>
+                </div>
+              
+              <div class="nav-item hvr-underline-from-left col-sm">
+                  <a class="nav-link" href="#">
+                  <i class="fas fa-envelope"></i></a>
+                  </div>
+              
+  
+            </div>
+        </div>
+
+          <!-- Navigation Menu for all other screens -->
 
         <div>
-          <ul class="navbar-nav">
+          <ul class="navbar-nav d-none d-sm-block">
             <li class="nav-item hvr-underline-from-left">
               <a class="nav-link" href="#">Podcasts</a> <!-- FILL IN! -->
             </li>
@@ -63,7 +88,7 @@
                     
                 </div>
 
-                <div class="col-md-6 support-us-buttons">
+                <div class="col-md-6">
                     <a href="https://www.patreon.com/itsnotjustinyourhead"><button class="btn btn-danger text-red btn-lg btn-block">Support us on Patreon</button></a>
                     
                 </div>
