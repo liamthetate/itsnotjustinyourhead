@@ -51,9 +51,23 @@ Source Serif Pro
     /*- Patreon Colour -*/
     background-color: #FF424D;
     color: #fff;
+    
 }
 
+.btn-outline-warning {
+    color: #4c326e;
+    border-color: #fff;
+}
 
+.btn-outline-warning:hover {
+    background-color: #7036d2;
+    border-color: #fff;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+}
 
 
 /*----------------------------------------- Formatting Text */
@@ -63,7 +77,29 @@ Source Serif Pro
 }
 
 
+/*----------------------------------------- index layout */
+
+
+
+.support-us-buttons {
+    display: flex;
+    align-items: center;
+}
+
 /*----------------------------------------- Hover.css FX */
 .hvr-underline-from-left:before {
     background-color: #ffced1;
+}
+
+/*----------------------------------------- Footer */
+
+footer {
+    height: 100px;
+    background-color: #000000;
+    color:#fff;
+
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
 }
