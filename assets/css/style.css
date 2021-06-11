@@ -108,13 +108,16 @@ footer {
 
 /*-- MEDIA */
 
-@media (min-width: 0px) and (max-width: 250px) { 
+/*--
+@media (max-width: 310px) { 
     
     .navbar-brand {
-        /*- Keeps text good size on really small screen -*/
+        /*- Keeps logo text on really small screen -*/   /*--
         font-size: 1rem;
     }
 
+
+/*--
     .navbar-nav {
         display: flex;
         flex-direction: row;
@@ -137,3 +140,4 @@ footer {
     
 
  }
+
