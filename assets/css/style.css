@@ -72,7 +72,7 @@ a:hover {
 
 .navbar-light .icon-color {
     /*- Icon color with gradient -*/
-    background: -webkit-linear-gradient(rgb(255, 217, 0), rgb(233, 105, 0));
+    background: -webkit-linear-gradient(rgb(233, 105, 0), rgb(255, 217, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -95,17 +95,25 @@ a:hover {
 
 /*----------------------------------------- Footer */
 
-footer {
+.footer-container {
     height: 100px;
     background-color: #000000;
     color:#fff;
-
     display: flex;
-    height: 300px;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
+.footer-container p {
+    font-size: 10px;
+    color: rgb(212, 209, 209);
+}
+
+
+
+.test {
+    height: 500px;
+}
 /*-- MEDIA */
 
 /*--
