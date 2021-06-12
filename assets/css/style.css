@@ -77,6 +77,7 @@ a:hover {
     -webkit-text-fill-color: transparent;
 }
 
+
 /*----------------------------------------- Formatting Text */
 
 .uppercase {
@@ -87,6 +88,25 @@ a:hover {
 /*----------------------------------------- index layout */
 
 
+.subscribe {
+    height: 2.85rem;
+
+    /*
+    display: flex; 
+    padding: 7px; 
+    margin: 5px 0px 5px 15px;
+    */
+}
+
+.listen {
+    display: flex;
+    color: grey;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+
 
 /*----------------------------------------- Hover.css FX */
 .hvr-underline-from-left:before {
@@ -94,6 +114,9 @@ a:hover {
 }
 
 /*----------------------------------------- Footer */
+footer {
+    height: 100px;
+}
 
 .footer-container {
     height: 100px;
@@ -109,11 +132,16 @@ a:hover {
     color: rgb(212, 209, 209);
 }
 
-
+/*------------------------------ test */
 
 .test {
     height: 500px;
 }
+
+
+
+
+
 /*-- MEDIA */
 
 /*--
