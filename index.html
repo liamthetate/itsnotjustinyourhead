@@ -25,48 +25,59 @@
   </head>
 
   <body>
-    
-    <!-- Navigation 'Brand/Logo' -->
-    <nav class="navbar navbar-light sticky-top navbar-expand-xl">
-        <a class="navbar-brand logo-font uppercase" href="#"> <!-- FILL IN! -->
-            <!-- <i class="fas fa-burn icon-color"></i> It's Not Just In Your Head</a> --> 
-            <!-- Only shows title on bigger screens -->
-          <i class="fas fa-adjust icon-color"></i><div class="d-none d-sm-inline"> It's Not Just In Your Head</div></a> 
+    <header>
+      
+      <!-- Navigation 'Brand/Logo' -->
+      <nav class="navbar navbar-light sticky-top navbar-expand-xl">
+        
+        <!-- Keeps the site contained on larger screens, but with the menu line at full width -->
+        <div class="container-fluid">
 
-    <!-- Navigation Menu -->
-      <div>
-        <ul class="navbar-nav">
-          <li class="nav-item hvr-underline-from-left">
-            <a class="nav-link" href="#">Podcasts</a> <!-- FILL IN! -->
-          </li>
+          <!-- Navigation Logo -->
 
-          <!-- This is a spacer, otherwise Hover.css underlines the padding on the links above -->
-          <li class="pr-2"></li>
+          <a class="navbar-brand logo-font uppercase" href="#"> <!-- FILL IN! -->
+              <!-- <i class="fas fa-burn icon-color"></i> It's Not Just In Your Head</a> --> 
+              <!-- Only shows title on bigger screens -->
+            <i class="fas fa-adjust icon-color"></i><div class="d-none d-sm-inline"> It's Not Just In Your Head</div></a> 
 
-          <li class="nav-item hvr-underline-from-left">
-            <a class="nav-link" href="#">About</a> <!-- FILL IN! -->
-          </li>
+          <!-- Navigation Menu -->
+        
+          <ul class="navbar-nav">
+            <li class="nav-item hvr-underline-from-left">
+              <a class="nav-link" href="#">Podcasts</a> <!-- FILL IN! -->
+            </li>
 
-          <li class="pr-2"></li>
+            <!-- This is a spacer, otherwise Hover.css underlines the padding on the links above -->
+            <li class="pr-2"></li>
 
-          <li class="nav-item hvr-underline-from-left">
-              <a class="nav-link" href="#">Contact</a> <!-- FILL IN! -->
-          </li>
+            <li class="nav-item hvr-underline-from-left">
+              <a class="nav-link" href="#">About</a> <!-- FILL IN! -->
+            </li>
 
-          <li class="pr-2"></li>
+            <li class="pr-2"></li>
 
-          <!-- This Button only appears on larger screen sizes -->
-          <a href="#"> <!-- FILL IN! -->
-            <button class="ml-2  btn btn-outline-danger text-red d-none d-md-block">Support us</button>
-          </a>
-        </ul>
-      </div>
-    </nav>
+            <li class="nav-item hvr-underline-from-left">
+                <a class="nav-link" href="#">Contact</a> <!-- FILL IN! -->
+            </li>
+
+            <li class="pr-2"></li>
+
+            <!-- This Button only appears on larger screen sizes -->
+            <a href="#"> <!-- FILL IN! -->
+              <button class="ml-2  btn btn-outline-danger text-red d-none d-md-block">Support us</button>
+            </a>
+          </ul>
+        </div> <!-- end div for container-fluid -->
+      </nav>
+  </header>
 
 
     <!-- The 'if your website only had one button' section -->
 
-    <header>
+    <!-- Keeps the site contained/centered on larger screens -->
+    <div class="container-fluid">  
+
+    <section>
       <div class="row">
         <div class="col-md-6">
             <img src="assets/images/icon.jpeg" class="img-fluid"">
@@ -76,6 +87,9 @@
             <a href="https://www.patreon.com/itsnotjustinyourhead"><button class="btn btn-danger text-red btn-lg btn-block">Support us on Patreon</button></a> 
         </div>
       </div>
+
+    </div> <!-- end div for container-fluid -->
+  </section>
 
     <!-- Footer and Socials -->
 
