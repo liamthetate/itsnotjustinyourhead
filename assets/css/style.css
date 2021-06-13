@@ -1,19 +1,51 @@
 
+/*----------------------------------------- Layout */
+
 .container-fluid {
     max-width: 980px;
     padding-left: 0px;
     padding-right: 0px;
 }
 
-/*-
-.fake-line {
-    background-color: grey;
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 1px;
+.subscribe {
+    height: 2.85rem;
+
+    /*
+    display: flex; 
+    padding: 7px; 
+    margin: 5px 0px 5px 15px;
+    */
 }
-*/
+
+.listen {
+    display: flex;
+    color: grey;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/*------------------------------ test */
+
+.test {
+    height: 500px;
+}
+
+.photo {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    border-radius: 50%;
+    height: 120px;
+}
+
+.align-right {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.bio-width {
+    max-width: 675px;
+}
 
 
 /*----------------------------------------- NavBar */
@@ -103,27 +135,6 @@ a:hover {
 }
 
 
-/*----------------------------------------- index layout */
-
-
-.subscribe {
-    height: 2.85rem;
-
-    /*
-    display: flex; 
-    padding: 7px; 
-    margin: 5px 0px 5px 15px;
-    */
-}
-
-.listen {
-    display: flex;
-    color: grey;
-    font-size: 12px;
-    margin-top: 10px;
-}
-
-
 
 
 /*----------------------------------------- Hover.css FX */
@@ -150,11 +161,7 @@ footer {
     color: rgb(212, 209, 209);
 }
 
-/*------------------------------ test */
 
-.test {
-    height: 500px;
-}
 
 
 
