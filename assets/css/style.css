@@ -1,11 +1,28 @@
 
-/*----------------------------------------- Layout */
+/*----------------------------------------- Fonts & Formatting */
+
+p, h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0,0,0,.7); /*- same as menu color */
+}
+
+p {
+    color: rgba(0,0,0,.5); /*- same as menu color */
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*----------------------------------------- Layout: General */
 
 .container-fluid {
     max-width: 980px;
     padding-left: 0px;
     padding-right: 0px;
 }
+
+/*----------------------------------------- Layout: Podcast */
 
 .subscribe {
     height: 2.85rem;
@@ -24,11 +41,8 @@
     margin-top: 10px;
 }
 
-/*------------------------------ test */
+/*------------------------------ Layout: About */
 
-.test {
-    height: 500px;
-}
 
 .photo {
     -webkit-filter: grayscale(100%); 
@@ -37,19 +51,11 @@
     height: 120px;
 }
 
-.align-right {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-}
-
 .bio-width {
     max-width: 675px;
 }
 
-
 /*----------------------------------------- NavBar */
-
 
 .no-curve {
     border-radius: 0;
@@ -126,14 +132,6 @@ a:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-
-/*----------------------------------------- Formatting Text */
-
-.uppercase {
-    text-transform: uppercase;
-}
-
 
 
 
