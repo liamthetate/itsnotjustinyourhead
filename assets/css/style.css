@@ -55,6 +55,16 @@ p {
     max-width: 675px;
 }
 
+/*
+.center-content {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 /*----------------------------------------- NavBar */
 
 .no-curve {
@@ -151,12 +161,29 @@ footer {
     color:#fff;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    text-decoration: none;
+    align-items: center;
 }
 
+.footer-container a {
+    color:#fff;
+}
+
+/*-- 
 .footer-container p {
     font-size: 10px;
     color: rgb(212, 209, 209);
+    
+}
+*/
+
+
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
