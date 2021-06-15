@@ -22,23 +22,31 @@ p {
     padding-right: 0px;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 /*----------------------------------------- Layout: Podcast */
 
 .subscribe {
     height: 2.85rem;
-
-    /*
     display: flex; 
-    padding: 7px; 
-    margin: 5px 0px 5px 15px;
-    */
+    justify-content: center;
+    align-content: center;
+    
+    
+
 }
 
 .listen {
     display: flex;
+    justify-content: center;
+    align-content: center;
     color: grey;
     font-size: 12px;
-    margin-top: 10px;
 }
 
 /*------------------------------ Layout: About */
@@ -189,6 +197,21 @@ input, textarea {
 
 
 
+.podcast-poster {
+   max-width: 300px;
+}
+
+.podcast-info h4 {
+    font-family: Mate;
+}
+
+.podcast-info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
 
 
 
@@ -226,4 +249,16 @@ input, textarea {
     
 
  }
+*/
 
+/*---------------- MODAL BODY */
+
+.modal-body {
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.thumbnails {
+    width: 50px;
+}
