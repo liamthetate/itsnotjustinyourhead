@@ -1,187 +1,60 @@
 
 /*----------------------------------------- Fonts & Formatting */
 
+
 p, h1, h2, h3, h4 {
     font-family: 'Roboto', sans-serif;
     color: rgba(0,0,0,.7); /*- same as menu color */
 }
 
-p {
-    color: rgba(0,0,0,.5); /*- same as menu color */
-}
-
-a {
-    color: #FF424D;
-}
-
-a:hover {
-    color: #e4343c;
-}
 
 .uppercase {
     text-transform: uppercase;
 }
 
 
-/*----------------------------------------- Layout: General */
-
-.container-fluid {
-    max-width: 980px; 
-    padding-left: 0px;
-    padding-right: 0px;
+a:hover {
+    text-decoration: none;
 }
 
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-
-
-/*----------------------------------------- Layout: index */
-
-.comment,
-.five-stars {
-    color: rgba(0,0,0,.4);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    font-size: 1rem;
-}
-
-
-
-
-
-
-/*----------------------------------------- Layout: Episodes */
-
-/*
-.subscribe {
-    height: 2.85rem;
-    display: flex; 
-    justify-content: center;
-    align-content: center;
-    
-}
-
-.listen {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    color: grey;
-    font-size: 12px;
-}
-*/
-
-.unlock {
-    width: 100%;
-    height: 232px;
-    background-color: black;
-    color: white;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-}
-
-.unlock p {
-    color: white;
-}
-
-.patron-box-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/*------------------------------ Layout: About */
-
-
-.photo {
-    -webkit-filter: grayscale(100%); 
-    filter: grayscale(100%);
-    border-radius: 50%;
-    height: 120px;
-}
-
-.bio-width {
-    max-width: 675px;
-}
-
-/*
-.center-content {
-    display: flexbox;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-/*----------------------------------------- NavBar */
-
-.no-curve {
-    border-radius: 0;
-}
-
-.navbar {
-    border-bottom: 1px solid grey;
-    background-color: #fff;
-    padding: .5rem .5rem;
-}
-
-.navbar-nav {
-    flex-direction: row;
-    align-items: flex-end;
-    margin-left: 0;
-    font-family: 'Roboto', sans-serif;
-}
-
-.logo-font {
-    font-family: 'Mate SC', sans-serif;
-    font-weight: 200;
-
-/*---
-Choices:
-Roboto
-Ubuntu - cool!
-Mate   - bit cheap
-Mate SC
-Bebas Neue - bit cheap
-Teko
-Source Serif Pro
---*/
-
-}
-
-.navbar-brand {
-    /*- Keeps text good size on really small screen -*/
-    font-size: 1.25rem;
-}
 
 /*----------------------------------------- Colours */
+
+
+p {
+    color: rgba(0,0,0,.5); /*- same as menu color */
+}
+
+
+a {
+    color: #FF424D;
+}
+
+
+a:hover {
+    color: #e4343c;
+}
+
 
 .btn-outline-danger {
     /*- Patreon Colour -*/
     color: #FF424D;
 }
 
+
 .btn-danger,
 .btn-outline-danger:hover {
     /*- Patreon Colour -*/
     background-color: #FF424D;
     color: #fff;
-    
 }
+
 
 .btn-outline-warning {
     color: #4c326e;
     border-color: #fff;
 }
+
 
 .btn-outline-warning:hover {
     background-color: #7036d2;
@@ -189,9 +62,6 @@ Source Serif Pro
     color: #fff;
 }
 
-a:hover {
-    text-decoration: none;
-}
 
 .navbar-light .icon-color {
     /*- Icon color with gradient -*/
@@ -206,26 +76,175 @@ a:hover {
     color: rgba(0,0,0,.7);
 }
 
-/*--
-.btn-outline-dark {
-    background-color: rgb(255, 217, 0);
-}
 
-
-.btn-outline-dark:hover {
-    background-color: rgb(255, 237, 132);
-}
-
-
-/*----------------------------------------- Hover.css FX */
+/* Hover.css FX */
 .hvr-underline-from-left:before {
     background-color: rgb(255, 217, 0); 
 }
 
-/*----------------------------------------- Footer */
+
+/*----------------------------------------- NavBar */
+
+
+.no-curve {
+    border-radius: 0;
+}
+
+
+.navbar {
+    border-bottom: 1px solid grey;
+    background-color: #fff;
+    padding: .5rem .5rem;
+}
+
+
+.navbar-nav {
+    flex-direction: row;
+    align-items: flex-end;
+    margin-left: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.logo-font {
+    font-family: 'Mate SC', sans-serif;
+    font-weight: 200;
+}
+
+
+.navbar-brand {
+    /*- Keeps text good size on really small screen -*/
+    font-size: 1.25rem;
+}
+
+
+/*----------------------------------------- Layout: General */
+
+
+.container-fluid {
+    max-width: 980px; 
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*----------------------------------------- Layout: index */
+
+.jumbotron {
+ background-color: #fff;
+}
+
+.comment,
+.five-stars {
+    color: rgba(0,0,0,.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+
+.podcast-poster {
+    max-width: 300px;
+ }
+ 
+ 
+.podcast-info h2 {
+     font-family: "Mate", sans-serif;
+     
+ }
+ 
+ 
+.podcast-info {
+     margin-top: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  
+ }
+
+
+.modal-body {
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.thumbnails {
+    width: 50px;
+}
+
+
+/*----------------------------------------- Layout: Episodes */
+
+
+.unlock {
+    width: 100%;
+    height: 232px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.unlock p {
+    color: white;
+}
+
+
+.patron-box-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*------------------------------ Layout: About */
+
+
+.photo {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    border-radius: 50%;
+    height: 120px;
+}
+
+
+.bio-width {
+    max-width: 675px;
+}
+
+
+/*----------------------------------------- Contact */
+
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*----------------------------------------- Layout: Footer */
+
+
 footer {
     height: 100px;
 }
+
 
 .footer-container {
     height: 100px;
@@ -237,97 +256,8 @@ footer {
     align-items: center;
 }
 
+
 .footer-container a {
     color:#fff;
 }
-
-/*-- 
-.footer-container p {
-    font-size: 10px;
-    color: rgb(212, 209, 209);
-    
-}
-*/
-
-
-
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-
-
-
-.podcast-poster {
-   max-width: 300px;
-}
-
-.podcast-info h4 {
-    font-family: Mate;
-}
-
-.podcast-info {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- 
-}
-
-
-
-/*-- MEDIA */
-
-/*--
-@media (max-width: 310px) { 
-    
-    .navbar-brand {
-        /*- Keeps logo text on really small screen -*/   /*--
-        font-size: 1rem;
-    }
-
-
-/*--
-    .navbar-nav {
-        display: flex;
-        flex-direction: row;
-        margin-left: 0;
-        font-family: 'Roboto', sans-serif;
-    }
-
-    .nav-item {
-        flex-direction: row;
-    }
-
-    .col-sm {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    .row {
-        flex-wrap: nowrap;
-    }
-    
-
- }
-*/
-
-/*---------------- MODAL BODY */
-
-.modal-body {
-    margin: 10px;
-    padding: 10px;
-    width: 100%;
-}
-
-.thumbnails {
-    width: 50px;
-}
-
-
-
-
 
