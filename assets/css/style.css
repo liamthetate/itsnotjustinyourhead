@@ -210,6 +210,9 @@ a:hover {
     align-items: center;
 }
 
+.font-heading {
+    font-family: "Mate", sans-serif;
+}
 
 /*------------------------------ Layout: About */
 
