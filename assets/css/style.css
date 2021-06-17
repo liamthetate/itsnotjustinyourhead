@@ -253,7 +253,7 @@ footer {
 .footer-container {
     height: 100px;
     background-color: #000000;
-    color:#fff;
+
     display: flex;
     justify-content: center;
     text-decoration: none;
@@ -265,3 +265,6 @@ footer {
     color:#fff;
 }
 
+.footer-container a:hover {
+    color: rgb(185, 185, 185);
+}
