@@ -116,6 +116,14 @@ a:hover {
    }
 
 
+.custom-link-color a {
+    color: black;
+}
+
+.custom-link-color a:hover {
+    text-decoration: underline;
+}
+
 /*----------------------------------------- NavBar */
 
 
