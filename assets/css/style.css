@@ -83,6 +83,16 @@ a:hover {
 }
 
 
+.footer-container a {
+    color:#fff;
+}
+
+
+.footer-container a:hover {
+    color: rgb(185, 185, 185);
+}
+
+
 /*----------------------------------------- NavBar */
 
 
@@ -253,18 +263,9 @@ footer {
 .footer-container {
     height: 100px;
     background-color: #000000;
-
     display: flex;
     justify-content: center;
     text-decoration: none;
     align-items: center;
 }
 
-
-.footer-container a {
-    color:#fff;
-}
-
-.footer-container a:hover {
-    color: rgb(185, 185, 185);
-}
