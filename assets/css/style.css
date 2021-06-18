@@ -17,6 +17,19 @@ a:hover {
     text-decoration: none;
 }
 
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+:target {  
+    display: block;    
+    position: relative;     
+    top: -100px;
+    visibility: hidden;
+    /*-- Taken from: https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header */
+} 
 
 /*----------------------------------------- Colours */
 
@@ -63,6 +76,8 @@ a:hover {
 }
 
 
+
+
 .navbar-light .icon-color {
     /*- Icon color with gradient -*/
     background: -webkit-linear-gradient(rgb(233, 105, 0), rgb(255, 217, 0));
@@ -83,8 +98,8 @@ a:hover {
 
 
 .badge-danger {
-    background-color: rgb(255, 217, 0);
-    color: rgba(0,0,0,.7);
+    background-color: #FF424D;
+    color: #fff;
 }
 
 
@@ -122,6 +137,22 @@ a:hover {
 
 .custom-link-color a:hover {
     text-decoration: underline;
+}
+
+.btn-dark {
+    background-color: #fff7b1;
+    color: black; 
+}
+
+.btn-dark:hover {
+    background-color: #fcef7c;
+    color: black;
+}
+
+.btn-dark:focus {
+    background-color: #fff7b1;
+    color: black;
+    box-shadow: none;
 }
 
 /*----------------------------------------- NavBar */
@@ -174,6 +205,7 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
+
 
 
 /*----------------------------------------- Layout: index */
@@ -247,6 +279,7 @@ a:hover {
     font-family: "Mate", sans-serif;
 }
 
+
 /*------------------------------ Layout: About */
 
 
@@ -254,7 +287,7 @@ a:hover {
     -webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
     border-radius: 50%;
-    height: 120px;
+    height: 200px;
 }
 
 
@@ -262,7 +295,10 @@ a:hover {
     max-width: 675px;
 }
 
-
+.media-body {
+    display: flex;
+    justify-content: center;
+}
 /*----------------------------------------- Contact */
 
 
@@ -292,3 +328,31 @@ footer {
     align-items: center;
 }
 
+/*----------------------------------------- Media query */
+
+@media(max-width: 575px) {
+    
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        display: flex;
+        text-align: center;
+    }
+
+
+    .center-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #bug {
+        display: inline;
+        text-center
+   
+    }
+
+  }
