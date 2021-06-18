@@ -1,19 +1,23 @@
-
 /*----------------------------------------- Fonts & Formatting */
 
+p {
+    font-family: "Roboto", sans-serif;
+    color: rgb(127, 127, 127);
+}
 
-p, h1, h2, h3, h4 {
-    font-family: 'Roboto', sans-serif;
-    color: rgba(0,0,0,.7); /*- same as menu color */
+h2,
+h4 {
+    font-family: "Roboto", sans-serif;
+    color: rgb(78, 78, 78);
 }
 
 h2 {
-    font-size: 1.8rem;;
+    font-size: 1.8rem;
 }
+
 .uppercase {
     text-transform: uppercase;
 }
-
 
 a:hover {
     text-decoration: none;
@@ -24,54 +28,49 @@ a:hover {
     margin-right: 0;
 }
 
-
-:target {  
-    display: block;    
-    position: relative;     
+:target {
+    display: block;
+    position: relative;
     top: -100px;
     visibility: hidden;
     /*-- Taken from: https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header */
-} 
+}
+
+.font-heading {
+    font-family: "Mate", sans-serif;
+}
 
 /*----------------------------------------- Colours */
 
-
 p {
-    color: rgba(0,0,0,.5); /*- same as menu color */
+    color: rgb(127, 127, 127);
 }
 
-
-a {
-    color: #FF424D;
+a { /*- Patreon Colour -*/
+    color: #ff424d; 
 }
-
 
 a:hover {
     color: #e4343c;
 }
 
-
 .btn-outline-danger {
     /*- Patreon Colour -*/
-    color: #FF424D;
+    color: #ff424d;
 }
-
 
 .btn-danger,
 .btn-outline-danger:hover {
     /*- Patreon Colour -*/
-    background-color: #FF424D;
+    background-color: #ff424d;
     color: #fff;
 }
-
-
-
 
 .navbar-light .icon-color {
     /*- Icon color with gradient -*/
     background: -webkit-linear-gradient(rgb(233, 105, 0), rgb(255, 217, 0));
-    background:    -moz-linear-gradient(rgb(233, 105, 0), rgb(255, 217, 0));
-    background:        -linear-gradient(rgb(233, 105, 0), rgb(255, 217, 0));
+    background: -moz-linear-gradient(rgb(233, 105, 0), rgb(255, 217, 0));
+    background: -linear-gradient(rgb(233, 105, 0), rgb(255, 217, 0));
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -79,47 +78,35 @@ a:hover {
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
 
-    background-clip: text;
-    text-fill-color: transparent;
-
     /*-- Initial code from: https://cssgradient.io/blog/css-gradient-text/ --*/
     /*-- Further formatting inspired by https://learn.shayhowe.com/html-css/writing-your-best-code/ --*/
 }
 
-
 .badge-danger {
-    background-color: #FF424D;
+    background-color: #ff424d;
     color: #fff;
 }
 
-
 /* Hover.css FX */
 .hvr-underline-from-left:before {
-    background-color: rgb(255, 217, 0); 
+    background-color: rgb(255, 217, 0);
 }
-
 
 .footer-container a {
-    color:#fff;
+    color: #fff;
 }
-
 
 .footer-container a:hover {
     color: rgb(185, 185, 185);
 }
 
-
-
 .unlock p {
     color: white;
 }
 
-
-
 .jumbotron {
     background-color: #fff;
-   }
-
+}
 
 .custom-link-color a {
     color: black;
@@ -131,7 +118,7 @@ a:hover {
 
 .btn-warning {
     background-color: #fff7b1;
-    color: black; 
+    color: black;
 }
 
 .btn-warning:hover {
@@ -147,49 +134,41 @@ a:hover {
 
 /*----------------------------------------- NavBar */
 
-
 .no-curve {
     border-radius: 0;
 }
 
-
 .navbar {
     border-bottom: 1px solid grey;
     background-color: #fff;
-    padding: .5rem .5rem;
+    padding: 0.5rem 0.5rem;
 }
-
 
 .navbar-nav {
     flex-direction: row;
     align-items: flex-end;
     margin-left: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
-
 
 .logo-font {
-    font-family: 'Mate SC', sans-serif;
+    font-family: "Mate SC", sans-serif;
     font-weight: 200;
 }
-
 
 .navbar-brand {
     /*- Keeps text good size on really small screen -*/
     font-size: 1.25rem;
 }
 
-
 /*----------------------------------------- Layout: General */
 
-
 .container-fluid {
-    max-width: 980px; 
+    max-width: 980px;
     padding-left: 0px;
     padding-right: 0px;
     /*-- Idea to contain site on large screens https://forum.bootstrapstudio.io/t/how-to-center-a-website-content/3115/8 --*/
 }
-
 
 .center {
     display: flex;
@@ -197,14 +176,11 @@ a:hover {
     align-items: center;
 }
 
-
-
-/*----------------------------------------- Layout: index */
-
+/*----------------------------------------- Layout: Hero image */
 
 .comment,
 .five-stars {
-    color: rgba(0,0,0,.4);
+    color: rgb(127, 127, 127);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -212,26 +188,24 @@ a:hover {
     font-size: 1rem;
 }
 
+.five-stars {
+    color: rgb(255, 220, 138);
+}
 
 .podcast-poster {
     max-width: 300px;
- }
- 
- 
-.podcast-info h2 {
-     font-family: "Mate", sans-serif;
-     
- }
- 
- 
-.podcast-info {
-     margin-top: 20px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-  
- }
+}
 
+.podcast-info h2 {
+    font-family: "Mate", sans-serif;
+}
+
+.podcast-info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .modal-body {
     margin: 10px;
@@ -239,14 +213,11 @@ a:hover {
     width: 100%;
 }
 
-
 .thumbnails {
     width: 50px;
 }
 
-
 /*----------------------------------------- Layout: Episodes */
-
 
 .unlock {
     width: 100%;
@@ -256,9 +227,8 @@ a:hover {
     border-radius: 15px;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
-
 
 .patron-box-center {
     display: flex;
@@ -266,47 +236,35 @@ a:hover {
     align-items: center;
 }
 
-.font-heading {
-    font-family: "Mate", sans-serif;
-}
-
-
 /*------------------------------ Layout: About */
 
-
 .photo {
-    -webkit-filter: grayscale(100%); 
+    -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     border-radius: 50%;
     height: 200px;
-    /*-- Code/idea from: https://www.w3schools.com/howto/howto_css_image_bw.asp --*/    
+    /*-- Code/idea from: https://www.w3schools.com/howto/howto_css_image_bw.asp --*/
 }
-
 
 .bio-width {
     max-width: 675px;
 }
 
-
 /*----------------------------------------- Contact */
 
-
-input, textarea {
+input,
+textarea {
     width: 100%;
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-
 /*----------------------------------------- Layout: Footer */
-
 
 footer {
     height: 100px;
-
 }
-
 
 .footer-container {
     height: 100px;
@@ -319,10 +277,7 @@ footer {
 
 /*----------------------------------------- Media query */
 
-/* 575px 767px */
-
-@media(max-width: 575px) {
-    
+@media (max-width: 575px) {
     p,
     h1,
     h2,
@@ -333,7 +288,6 @@ footer {
         text-align: center;
     }
 
-
     .center-mobile {
         display: flex;
         justify-content: center;
@@ -342,7 +296,5 @@ footer {
 
     #bug {
         display: inline;
-        text-center
     }
-
-  }
+}
