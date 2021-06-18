@@ -7,7 +7,9 @@ p, h1, h2, h3, h4 {
     color: rgba(0,0,0,.7); /*- same as menu color */
 }
 
-
+h2 {
+    font-size: 1.8rem;;
+}
 .uppercase {
     text-transform: uppercase;
 }
@@ -63,19 +65,6 @@ a:hover {
 }
 
 
-.btn-outline-warning {
-    color: #4c326e;
-    border-color: #fff;
-}
-
-
-.btn-outline-warning:hover {
-    background-color: #7036d2;
-    border-color: #fff;
-    color: #fff;
-}
-
-
 
 
 .navbar-light .icon-color {
@@ -93,7 +82,8 @@ a:hover {
     background-clip: text;
     text-fill-color: transparent;
 
-    /*-- Formatting inspired by https://learn.shayhowe.com/html-css/writing-your-best-code/ --*/
+    /*-- Initial code from: https://cssgradient.io/blog/css-gradient-text/ --*/
+    /*-- Further formatting inspired by https://learn.shayhowe.com/html-css/writing-your-best-code/ --*/
 }
 
 
@@ -139,17 +129,17 @@ a:hover {
     text-decoration: underline;
 }
 
-.btn-dark {
+.btn-warning {
     background-color: #fff7b1;
     color: black; 
 }
 
-.btn-dark:hover {
+.btn-warning:hover {
     background-color: #fcef7c;
     color: black;
 }
 
-.btn-dark:focus {
+.btn-warning:focus {
     background-color: #fff7b1;
     color: black;
     box-shadow: none;
@@ -197,6 +187,7 @@ a:hover {
     max-width: 980px; 
     padding-left: 0px;
     padding-right: 0px;
+    /*-- Idea to contain site on large screens https://forum.bootstrapstudio.io/t/how-to-center-a-website-content/3115/8 --*/
 }
 
 
@@ -288,6 +279,7 @@ a:hover {
     filter: grayscale(100%);
     border-radius: 50%;
     height: 200px;
+    /*-- Code/idea from: https://www.w3schools.com/howto/howto_css_image_bw.asp --*/    
 }
 
 
@@ -295,10 +287,7 @@ a:hover {
     max-width: 675px;
 }
 
-.media-body {
-    display: flex;
-    justify-content: center;
-}
+
 /*----------------------------------------- Contact */
 
 
@@ -330,6 +319,8 @@ footer {
 
 /*----------------------------------------- Media query */
 
+/* 575px 767px */
+
 @media(max-width: 575px) {
     
     p,
@@ -352,7 +343,6 @@ footer {
     #bug {
         display: inline;
         text-center
-   
     }
 
   }
