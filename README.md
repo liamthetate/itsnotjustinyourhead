@@ -22,29 +22,30 @@ As one has no real choice but to live in (or under) Capitalism, the podcast also
 
 First Time Visitor Goals
 
-- I want to quickly understand the sites purpose and to listen/subscribe.
+>I want to quickly understand the sites purpose and to listen/subscribe.
 
-- I want to navigate the site, effortlesslly, to find content.
+>I want to navigate the site, effortlessly, to find content.
 
-- I want to be assured that this is a trustworthy operation, I want access to others opinions/reviews and the social media feeds to see what others are saying.
+>I want to be assured that this is a trustworthy operation, I want access to others opinions/reviews and the social media feeds to see what others are saying.
 
 <br/>
 
 Returning Visitor Goals
 
-- I've decided I want to support the podcast, so want that to be obvious how I do that.
+>I've decided I want to support the podcast, so want that to be obvious how I do that.
 
-- I want a quick way to get in contact with the hosts.
+>I want a quick way to get in contact with the hosts.
 
-- I want to find social media links.
+>I want to find social media links.
 
 <br/>
 
 Frequent User Goals
 
-- I want to search different topics/episodes I might not have listened to.
+>I want to search different topics/episodes I might not have listened to.
 
-- I want to stay up-to-date about the podcast, website etc.
+>I want to stay up-to-date about the podcast, website etc.
+
 <br/>
 <br/>
 
@@ -75,7 +76,7 @@ Typography
 <br/>
 
 Logo/Icon
-* In the wireframes I used a flame icon but once I applied colour it ended up looking like the Tinder logo! So the nav icon is the computer symbol for 'adjust' or contrast, meaningful! Also the circlular nature ties into the globe on the poster image.
+* In the wireframes I used a flame icon but once I applied colour it ended up looking like the Tinder logo! So the nav icon is the computer symbol for 'adjust' or contrast, meaningful! Also the circular nature ties into the globe on the poster image.
 
 <br/>
 
@@ -105,7 +106,7 @@ Wireframes
     * jQuery was used for the Modal window.
     
 6. Gitpod
-    * Gitpod was used for all code creation and Pushing to GitHub.
+    * Gitpod was used for all code creation and pushing to GitHub.
     
 7. GitHub:
     * GitHub was used to store the projects code after being pushed from Gitpod.
@@ -128,13 +129,15 @@ Wireframes
 
 # FEATURES
 
-## Navigation: Desktop
+## Navigation
 
+The site is a single page design and the nav links (including the icon/title) are anchors points. All external links throughout the site open in a seperate window/tab.
+
+Desktop:
 ![nav](assets/images/readme_images/nav_desktop.png)
-The desktop navigation bar sticks to the top of the page throughout the users experience, this is particularly important as at any point they can push the call-to-action button.
+The desktop navigation bar sticks to the top of the page throughout the users experience, this is particularly important as at any point they can push the call-to-action button, Support Us.
 
-## Navigation: Mobile
-
+Mobile:
 ![nav](assets/images/readme_images/nav_mobile.png)
 I didn't want the navigation to be hidden inside a 'burger' menu so choose to lose the 'title' and 'support us' button (and opt for a top banner instead) leaving space for the navigation names to be displayed.
 <br/>
@@ -143,10 +146,14 @@ I didn't want the navigation to be hidden inside a 'burger' menu so choose to lo
 ## Landing page
 
 ![landing page](assets/images/readme_images/home_desktop.png)
-
 Quite quickly you get a summary of what the podcast is about, a testimonial, a way to listen/subscribe and the option to support the podcast.
+
+- Listen & Subscribe:
+![landing page](assets/images/readme_images/modal.png)
+The button opens a Modal with podcast platform options, this keeps the main landing page clean and minimal. 
 <br/>
 <br/>
+
 
 ## Episodes
 
@@ -167,13 +174,14 @@ There are a few design decision going on here, so i'll go through them one by on
 
 - **Free episode**
 ![free ep](assets/images/readme_images/free_episode.png)
-- This follows the same design format but whilst the locked content has a small red badge, this has a monochromtaic badge informing the user that it's free. Hyperlinks have been differentiated from the main text with a black colour.
+- This follows the same design format but whilst the locked content has a small red badge, this has a monochromatic badge informing the user that it's free. Hyperlinks have been differentiated from the main text with a black colour.
 <br/>
 <br/>
 
 - **Free playlist**
 ![playlist](assets/images/readme_images/episode_playlist.png)
 - Placing the support button alongside the full list of free episodes is an attempt at reciprocity: 'here, have all this free content, it would be great if you could give something back in return' etc.
+- For continuity I would liked to have made the playlists border edges curved, whilst easy to do in Chrome Dev Tools, this required some Javascript code that was beyond my understanding (at this point in time).
 <br/>
 <br/>
 
@@ -185,12 +193,12 @@ I've used the same heading font for their names to tie it to the podcasts title 
 
 ## Contact
 ![playlist](assets/images/readme_images/contact.png)
-Fairly standard contact form lol
+Fairly standard contact form lol. I didn't use the label tag but instead opted for placeholder text to do the job of communicating what each field was for.
 <br/>
 <br/>
 ## Footer
 ![playlist](assets/images/readme_images/footer.png)
-The footer is sticky and displays throughout, the social media presence of the podcast is important for generating new listners and potential supporters, hence it is in a prominant place.
+The footer is sticky and displays throughout, the social media presence of the podcast is important for generating new listners and potential supporters, hence it is in a prominent place.
 <br/>
 <br/>
 <br/>
@@ -199,55 +207,67 @@ The footer is sticky and displays throughout, the social media presence of the p
 # Testing User Stories from User Experience (UX) Section
 
 ## First Time Visitor Goals:
-    
-    * I want to quickly understand the sites purpose and to listen/subscribe.
 
-The header/hero sums up the site, with quick and easy access to listen. Information about the hosts is there.
+>I want to quickly understand the sites purpose and to listen/subscribe.
 
-    * I want to navigate the site, effortlesslly, to find content.
+The header/hero sums up the site with easy access to listen. 
 
-The single page design allows quick and easy use.
+<br/>
 
-    * I want to be assured that this is a trustworthy operation, I want access to others opinions/reviews and the social media feeds to see what others are saying.
+>I want to navigate the site, effortlessly, to find content.
 
-The header review, the links to apple podcast (and their reviews) and the social media links are all there within one our two clicks/taps.
+The single page design allows quick/intuitive use of the site.
 
+<br/>
+
+>I want to be assured that this is a trustworthy operation, I want access to others opinions/reviews and the social media feeds to see what others are saying.
+
+The five star review (and the Apple podcast site which includes many reviews) and the social media links are all one tap/click away.
+
+<br/>
 
 ## Returning Visitor Goals:
 
-    * I've decided I want to support the podcast, so want that to be obvious how I do that.
+>I've decided I want to support the podcast, so want that to be obvious how I do that.
 
-The links are everywhere lol
+The Patreon links are... everywhere!
 
-    * I want a quick way to get in contact with the hosts.
+<br/>
 
-Contact form
+>I want a quick way to get in contact with the hosts.
 
-    * I want to find social media links.
+The social media and the link to the contact form are displayed at all times.
 
-Right there
+<br/>
+
+>I want to find social media links.
+
+You're in luck! They never go away!
+
+<br/>
 
 ## Frequent User Goals:
 
-    * I want to search different topics/episodes I might not have listened to.
+>I want to search different topics/episodes I might not have listened to.
 
-Currently the user can scroll the embedded playlist but there is room for expansion here.
+Currently the user can scroll the embedded playlist but there is room for major improvement here.
 
-    * I want to stay up-to-date about the podcast, website etc.
+<br/>
+
+>I want to stay up-to-date about the podcast, website etc.
 
 The social media links will do this but a newsletter might serve the user better.
 
 <br/>
 <br/>
-<br/>
 
 # FUTURE EXPANSION
 
-Rather than a playlist of all the episodes, I would like to embed each episode seperatly and then dynamically load them based on the users navigational behvaiour. Why?
+Rather than a playlist of all the episodes, I would like to embed each episode separately and then dynamically load them based on the users navigational behaviour. Why?
 
 Because on Patreon each episode has an extensive written description and links to articles, organisations and guests social media. I’d like to include that information next to each embedded episode, with the user having the option to expand or contract to read.
 
-Having this data on the site, coupled with a search and filter capabilty to quickly find relevant topics, will improve the value to the user. 
+Having this data on the site, coupled with a search and filter capability to quickly find relevant topics, will improve the value to the user. 
 
 A free mailing list for events, website updates etc could also be of value to would-be patrons.
 <br/>
@@ -298,44 +318,17 @@ Mobile [View](assets/images/readme_images/lh_mobile.png)
 
 # DEPLOYMENT
 
-* The site was deployed to GitHub pages. The steps to deploy are as follows:
-    * In the GitHub repository, navigate to the Settings tab
-    * From the source section drop-down menu, select the Master Branch
-    * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+The site was deployed to GitHub pages by doing the following:
 
-GitHub Pages
-The project was deployed to GitHub Pages using the following steps...
-1. Log in to GitHub and locate the GitHub Repository
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    * Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
-5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+* GitHub repository > Settings > Pages
+* Source drop-down menu > Select Master Branch
+* Click Save
+* The live link can be found [here](https://liamthetate.github.io/itsnotjustinyourhead/) 
 
-Forking the GitHub Repository
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
-1. Log in to GitHub and locate the GitHub Repository
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-3. You should now have a copy of the original repository in your GitHub account.
+I also deployed the website to my own ftp/website [here](http://liamtate.co.uk/injiyh/index.html), to do this I did the following: 
 
-Making a Local Clone
-1. Log in to GitHub and locate the GitHub Repository
-2. Under the repository name, click "Clone or download".
-3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-4. Open Git Bash
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type git clone, and then paste the URL you copied in Step 3.
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-7. Press Enter. Your local clone will be created.
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+* GitHub Repository > dropdown menu 'Code' 
+* 'Download zip' > open zip > Filezilla to transfer files
 
 <br/>
 <br/>
@@ -344,11 +337,63 @@ Click Here to retrieve pictures for some of the buttons and more detailed explan
 # CREDITS
 
 ## Content: 
-* The opening text for the Home page was taken from the podcasts Patreon page
+* The opening text description of the podcast on the home/hero page is taken from the  Patreon page.
 
-* The social media icons in the footer were taken from Font Awesome
+* The social media icons in the footer and the Patreon logo in the red buttons are taken from Font Awesome.
+
+* Code:
+    - Anchor links so they don't crop off the content: [Source](https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header)
+
+            :target {
+            display: block;
+            position: relative;
+            top: -100px;
+            visibility: hidden;
+            /*-- Taken from:  */
+            }
+
+    - Colour gradient on icon/logo: [Source](https://cssgradient.io/blog/css-gradient-text/) & [Source](https://learn.shayhowe.com/html-css/writing-your-best-code/)
+
+            .navbar-light .icon-color {
+            /*- Icon color with gradient -*/
+            background: -webkit-linear-gradient(rgb(233, 105, 0), rgb(255, 217, 0));
+            background: -moz-linear-gradient(rgb(233, 105, 0), rgb(255, 217, 0));
+            background: -linear-gradient(rgb(233, 105, 0), rgb(255, 217, 0));
+
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+            -moz-background-clip: text;
+            -moz-text-fill-color: transparent;
+
+            Initial code from: 
+            Further formatting inspired by 
+            }
+
+    -  Idea to contain site on large screens: [Source](https://forum.bootstrapstudio.io/t/how-to-center-a-website-content/3115/8)
+
+            .container-fluid {
+                max-width: 980px;
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+
+    -  Code/idea for greyscaling photo: [Source](https://www.w3schools.com/howto/howto_css_image_bw.asp)
+            
+            .photo {
+                -webkit-filter: grayscale(100%);
+                filter: grayscale(100%);
+                border-radius: 50%;
+                height: 200px;
+            }
+
+    - Modal code from Bootstrap docs: [Source](https://getbootstrap.com/docs/4.0/components/modal/)
+<br />
+<br />
+<br />
     
 ## Media: 
-* The podcast poster image and the pictures in the about section where supplied by the hosts
+* The podcast poster image and the pictures in the about section where supplied by the hosts.
+
 
 
