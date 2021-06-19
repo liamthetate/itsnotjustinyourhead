@@ -1,61 +1,88 @@
 # IT'S NOT JUST IN YOUR HEAD
+
 ![INJIYH LOGO](https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4727103/75d6e901f87e4096934daaaafdf538c1/1.PNG?token-time=2145916800&token-hash=M9ZnfHdxsTTjbBRGotAMLpRWavI-OTeQTir92vpWkP8%3D)
 
 I am an audio editor and social media manager for a weekly [podcast](https://podcasts.apple.com/us/podcast/its-not-just-in-your-head/id1508932075) by two therapists (+ guests) about Mental Health and Capitalism. The podcast aims to raise awareness that mental health issues aren’t just a problem of the individual but symptomatic of systemic problems.
 
 As one has no real choice but to live in (or under) Capitalism, the podcast also needs money to operate - lol - and whilst we have a [Patreon](https://www.patreon.com/itsnotjustinyourhead) page and visibility on all the major podcast platforms, this new website will function as another point of entry for potential supporters.
+<br/>
+<br/>
+<br/>
 
 # PRODUCT SHOT
 ![pic](assets/images/readme_images/product_shot.png)
+<br/>
+<br/>
+<br/>
 
 # UX
 
 ## User Stories
+<br/>
 
-First Time Visitor Goals:
-    
-    * I want to quickly understand the sites purpose, listen/subscribe and learn about the hosts.
+First Time Visitor Goals
 
-    * I want to navigate the site, effortlesslly, to find content.
+- I want to quickly understand the sites purpose and to listen/subscribe.
 
-    * I want to be assured that this is a trustworthy operation, I want access to others opinions/reviews and the social media feeds to see what others are saying.
+- I want to navigate the site, effortlesslly, to find content.
 
+- I want to be assured that this is a trustworthy operation, I want access to others opinions/reviews and the social media feeds to see what others are saying.
 
-Returning Visitor Goals:
+<br/>
 
-    * I've decided I want to support the podcast, so want that to be obvious how I do that.
+Returning Visitor Goals
 
-    * I want a quick way to get in contact with the hosts.
+- I've decided I want to support the podcast, so want that to be obvious how I do that.
 
-    * I want to find social media links.
+- I want a quick way to get in contact with the hosts.
 
-Frequent User Goals:
+- I want to find social media links.
 
-    * I want to search different topics/episodes I might not have listened to.
+<br/>
 
-    * I want to stay up-to-date about the podcast, website etc.
+Frequent User Goals
 
+- I want to search different topics/episodes I might not have listened to.
+
+- I want to stay up-to-date about the podcast, website etc.
+<br/>
+<br/>
 
 ## Design
+<br/>
 
 Colour Scheme
-* The two main colours used are Code Insititue red, and white.
+
+* Taking a cue from the standard [Apple Podcasts page](https://podcasts.apple.com/us/podcast/its-not-just-in-your-head/id1508932075), I used a white background and grey/dark text.
+
+* I used a custom red, whose hex value I took from the [Patreon branding page](https://www.patreon.com/brand), to glue the 'call-to-action' buttons to the etablished brand. 
+
+* I have taken inspiration from the flame on the [podcast poster image](assets/images/podcast-cover.jpg) and used a yellow/orange colour on a few instances:
+    - The logo in the top left
+    - On 'hover' events when using the navigation bar
+    - The listen/subscribe button
+    - The five star rating
+
+* Hopefully this yellow/orange colour creates a sense of 'brand' identity and continuity across the interaction. That the five star rating shares a similar colour may also have the subtle effect of aligning the concept of quality with the 'brand'.
+
+<br/>
 
 Typography
-* The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+* The 'Mate SC' font was used to replicate the poster image font in the navigation bar and 'Mate' was used on the hero image heading and on the hosts names.
 
-* Imagery
-    * Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+* The main font is 'Roboto' ('if it ain't broke' etc) with Sans Serif as the fallback.
 
-* Wireframes
-    * Home Page Wireframe - View
-    * Mobile Wireframe - View
-    * Contact Us Page Wireframe - View
-    
-    
-    
-    
-# FRAMEWORKS, LIBARARIES & PROGRAMS USED
+<br/>
+
+Wireframes
+* Desktop - [Home](assets/images/readme_images/wf_desktop1.png), [Episodes](assets/images/readme_images/wf_desktop2.png), [About](assets/images/readme_images/wf_desktop3.png), [Contact](assets/images/readme_images/wf_desktop4.png)
+* Mobile - [Home](assets/images/readme_images/wf_mobile1.png), [Episodes](assets/images/readme_images/wf_mobile2.png), [About](assets/images/readme_images/wf_mobile3.png), [Contact](assets/images/readme_images/wf_mobile4.png)
+
+<br/>
+<br/>
+<br/>
+
+# LIBRARIES, FRAMEWORKS & PROGRAMS USED
 
 1. Bootstrap 4.5:
     * Bootstrap was used throughout for layout, buttons etc.
@@ -87,10 +114,12 @@ Typography
 10. Spotify:
     * Spotify was used for embedding episodes and a playlist into the site.
     
-11. https://webformatter.com/:
-    * To format my html and css
-    
+11. [Web Formater](https://webformatter.com/):
+    * To format my html and css code
 
+<br/>
+<br/>
+<br/>
 
 # FEATURES
 
@@ -113,7 +142,10 @@ Contact:
 listeners to reach out with questions etc
 
 
+Responsive 
+* Besides the centering for Mobile devices, I have created two different 'Support Us' buttons depending on screen size. Mobile devices get a banner at the top of the page, Desktop get a button at the end of the navigation bar.
 
+<br/>
 
 nav bar description and pic
 
@@ -131,7 +163,9 @@ About and pic
 Contact and pic
 
 Footer and pic
-
+<br/>
+<br/>
+<br/>
 
 
 # Testing User Stories from User Experience (UX) Section
@@ -175,62 +209,64 @@ Currently the user can scroll the embedded playlist but there is room for expans
 
 The social media links will do this but a newsletter might serve the user better.
 
+<br/>
+<br/>
+<br/>
 
-# Future Expansion/Features 
+# FUTURE EXPANSION
+
+Rather than a playlist of all the episodes, I would like to embed each episode seperatly and then dynamically load them based on the users navigational behvaiour.
 
 On Patreon each episode has an extensive written description and links to articles, organisations and guests social media. I’d like to include that information next to each embedded episode, with the user having the option to expand or contract to read.
 
-Having this data on the site, coupled with a search and filter capabilty for users to quickly find relevant topics, will improve the value to the user. The cross linking to other site will also improve the sites Search Engine ranking.
+Having this data on the site, coupled with a search and filter capabilty to quickly find relevant topics, will improve the value to the user. 
 
 A free mailing list for events, website updates etc could also be of value to would-be patrons.
-
+<br/>
+<br/>
+<br/>
 
 
 
 # TESTING
 
-The site was tested (links, layout, display) on the following devices.
+## Devices & Browsers
+
+The site was tested on the following devices with no problems.
 
 Device | OS | Browser
 -------|----|---------
-iPhone 8 | iOS14 | Safari, Ghostery, Firefox 
+iPhone 8 | iOS 14 | Safari, Ghostery, Firefox 
 Macbook Pro | Big Sur | Safari, Firefox, Chrome
-Huawei P8 Lite | Android 6.0 | Mozilla Firefox for Android
-Samsung Galaxy Tab A | Android 6.0.1 | Firefox for Android
+Huawei P8 Lite | Android 6.0 | Firefox & Default Internet Browser
+Samsung Galaxy Tab A | Android 6.0.1 | Firefox & Samsung Internet Browser
 
-## LIGHTHOUSE RESULTS
+<br/>
 
-Desktop: ![Desktop](assets/images/readme_images/lh_desktop.png)
-Mobile: ![Mobile](assets/images/readme_images/lh_mobile.png)
+## Validator testing
 
-A slight tweak to the font size or color contrast between background and text would elevate these scores slightly higher. 
+**HTML:** No errors were returned in my code passing through the W3C validator, however [it did not like the official Spotify iframe embeds](assets/images/readme_images/html_spotify.png) but there isn't much I can do about that! 
 
+**CSS:** No errors were found when passing through the Jigsaw W3C validator.
+<br/>
+<br/>
 
-## VALIDATOR TESTING
+## Lighthouse results
 
-* HTML
-    * No errors were returned in my code passing through the W3C validator, however it did not like the official Spotify iframe embeds, but there isn't much I can do about that!
-![HTML](assets/images/readme_images/html_spotify.png)
+Desktop [View](assets/images/readme_images/lh_desktop.png)
 
-* CSS
-    * No errors were found when passing through the Jigsaw W3C validator
+Mobile [View](assets/images/readme_images/lh_mobile.png)
+<br/>
+<br/>
 
-    
-## UNFIXED BUGS
+## Known bugs
 
-* I'm aware that using the header tag would be good semnatic use of html, however for some reason that I couldn't figure it out, if the nav was inside the header it would not stick to the top of the page. For this reason I commented out the header tag.
+1. I'm aware that using the header tag would be good semantic use of HTML, however for some reason, if the nav was inside the header, the nav would not stick to the top of the page. For this reason I commented out the header tag.
 
-* In the episodes section, the free embedded spotify episode has some text beside it. I couldn't center align the text without it breaking the 'p' and 'a' section into five columns. So instead I used an inline display property and settled to have it left aligned on mobile.
-    
-
-
-
-
-
-
-
-
-
+2. In the episodes section, the embedded spotify episode has some text beside it. Depsite a considerable amount of time trying to figure it out, I couldn't center-align the text without it breaking the 'p' and 'a' sections into five columns. So instead I used an inline display property and settled to have it left-aligned on mobile.
+<br/>
+<br/>
+<br/>
 
 # DEPLOYMENT
 
@@ -273,19 +309,18 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > Unpacking objects: 100% (10/10), done.
 Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
-
-
-
-
+<br/>
+<br/>
+<br/>
 
 # CREDITS
 
-    ## Content: 
-    * The text for the Home page was taken from Patreon 
-    * The icons in the footer were taken from Font Awesome
-    
-    ## Media: 
-    * The images used for the gallery page were taken from this other open source site
+## Content: 
+* The opening text for the Home page was taken from the podcasts Patreon page
 
+* The social media icons in the footer were taken from Font Awesome
+    
+## Media: 
+* The podcast poster image and the pictures in the about section where supplied by the hosts
 
 
