@@ -320,15 +320,43 @@ Mobile [View](assets/images/readme_images/lh_mobile.png)
 
 The site was deployed to GitHub pages by doing the following:
 
-* GitHub repository > Settings > Pages
-* Source drop-down menu > Select Master Branch
-* Click Save
+* GitHub repository > 'Settings' tab > 'Pages' menu
+* Source drop-down menu > Select Master Branch > Click Save
 * The live link can be found [here](https://liamthetate.github.io/itsnotjustinyourhead/) 
 
-I also deployed the website to my own ftp/website [here](http://liamtate.co.uk/injiyh/index.html), to do this I did the following: 
+<br/>
+
+I also deployed the website to my own ftp/website [here](http://liamtate.co.uk/injiyh/index.html), by cloning: 
 
 * GitHub Repository > dropdown menu 'Code' 
-* 'Download zip' > open zip > Filezilla to transfer files
+* 'Download ZIP' > open zip > Filezilla to transfer files
+
+<br/>
+
+To clone a repository via HTTPS you could just read [this handy guide](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository), or following along below:
+
+* Dropdown menu 'Code' > Choose either HTTPS, SSH or CLI
+* Click clipboard icon
+* Open Terminal > Type: 
+
+        $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+* Press Enter:
+
+        $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+        > Cloning into `Spoon-Knife`...
+        > remote: Counting objects: 10, done.
+        > remote: Compressing objects: 100% (8/8), done.
+        > remove: Total 10 (delta 1), reused 10 (delta 1)
+        > Unpacking objects: 100% (10/10), done.
+
+<br/>
+
+To clone a repository to GitHub Desktop:
+
+* Dropdown menu 'Code' > Open with GitHub Desktop
+* Follow the prompts!
+
 
 <br/>
 <br/>
@@ -388,9 +416,11 @@ I also deployed the website to my own ftp/website [here](http://liamtate.co.uk/i
             }
 
     - Modal code from Bootstrap docs: [Source](https://getbootstrap.com/docs/4.0/components/modal/)
+
+            too long to paste here - see html file line 107
+
 <br />
-<br />
-<br />
+
     
 ## Media: 
 * The podcast poster image and the pictures in the about section where supplied by the hosts.
