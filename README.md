@@ -18,7 +18,7 @@ As one has no real choice but to live in (or under) Capitalism, the podcast also
 # UX
 
 ## User Stories
-<br/>
+
 
 First Time Visitor Goals
 
@@ -53,12 +53,12 @@ Frequent User Goals
 
 Colour Scheme
 
-* Taking a cue from the standard [Apple Podcasts page](https://podcasts.apple.com/us/podcast/its-not-just-in-your-head/id1508932075), I used a white background and grey/dark text.
+* Taking a cue from the standard [Apple Podcasts page](https://podcasts.apple.com/us/podcast/its-not-just-in-your-head/id1508932075), I used a white background and grey/dark text with a generous use of negative space.
 
-* I used a custom red, whose hex value I took from the [Patreon branding page](https://www.patreon.com/brand), to glue the 'call-to-action' buttons to the etablished brand. 
+* I used a custom red, a hex value I took from the [Patreon branding page](https://www.patreon.com/brand), to glue the 'call-to-action' buttons to the brand. 
 
 * I have taken inspiration from the flame on the [podcast poster image](assets/images/podcast-cover.jpg) and used a yellow/orange colour on a few instances:
-    - The logo in the top left
+    - The logo/icon in the top left
     - On 'hover' events when using the navigation bar
     - The listen/subscribe button
     - The five star rating
@@ -71,6 +71,11 @@ Typography
 * The 'Mate SC' font was used to replicate the poster image font in the navigation bar and 'Mate' was used on the hero image heading and on the hosts names.
 
 * The main font is 'Roboto' ('if it ain't broke' etc) with Sans Serif as the fallback.
+
+<br/>
+
+Logo/Icon
+* In the wireframes I used a flame icon but once I applied colour it ended up looking like the Tinder logo! So the nav icon is the computer symbol for 'adjust' or contrast, meaningful! Also the circlular nature ties into the globe on the poster image.
 
 <br/>
 
@@ -99,11 +104,11 @@ Wireframes
 5. jQuery:
     * jQuery was used for the Modal window.
     
-6. Git
-    * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+6. Gitpod
+    * Gitpod was used for all code creation and Pushing to GitHub.
     
 7. GitHub:
-    * GitHub is used to store the projects code after being pushed from Git.
+    * GitHub was used to store the projects code after being pushed from Gitpod.
     
 8. Photoshop:
     * Photoshop was used to crop, resize and export the 'about' photos for the website.
@@ -123,46 +128,69 @@ Wireframes
 
 # FEATURES
 
+## Navigation: Desktop
 
-Landing page:
-Users can listen and subscribe for free.
-Support button prominant.
-(Play a trailer)
+![nav](assets/images/readme_images/nav_desktop.png)
+The desktop navigation bar sticks to the top of the page throughout the users experience, this is particularly important as at any point they can push the call-to-action button.
 
-Episodes:
-Another prompt, locked content.
-Free content episode
-Playlist of free episodes
+## Navigation: Mobile
 
-About:
-Put a face to the voices
-Learn a small amount 
-
-Contact:
-listeners to reach out with questions etc
-
-
-Responsive 
-* Besides the centering for Mobile devices, I have created two different 'Support Us' buttons depending on screen size. Mobile devices get a banner at the top of the page, Desktop get a button at the end of the navigation bar.
-
+![nav](assets/images/readme_images/nav_mobile.png)
+I didn't want the navigation to be hidden inside a 'burger' menu so choose to lose the 'title' and 'support us' button (and opt for a top banner instead) leaving space for the navigation names to be displayed.
+<br/>
 <br/>
 
-nav bar description and pic
+## Landing page
 
-(* Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation. * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.)
+![landing page](assets/images/readme_images/home_desktop.png)
 
+Quite quickly you get a summary of what the podcast is about, a testimonial, a way to listen/subscribe and the option to support the podcast.
+<br/>
+<br/>
 
-landing page and pic
+## Episodes
 
-(* The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. * This section introduces the user to Love Running with an eye catching animation to grab their attention)
+![landing page](assets/images/readme_images/episodes_desktop.png)
+There are a few design decision going on here, so i'll go through them one by one:
+<br/>
+<br/>
 
-Episode and pic
+- **Patreon**
+![locked](assets/images/readme_images/patreon_locked.png)
+- The black box at the top is my attempt to recreate what one sees when browsing any given Patreon page, [locked content!](assets/images/readme_images/original_patreon_locked.png)
 
-About and pic
+- I've used a red small badge, using the Patreon brand colour, and listed various perks as a preview for what a user might read on the Patreon page. 
 
-Contact and pic
+- Given that there are already quite a few instances of the support button on the page, I decided not to put one below the bullet points and saved it to act as a book-end to the episode section. 
+<br/>
+<br/>
 
-Footer and pic
+- **Free episode**
+![free ep](assets/images/readme_images/free_episode.png)
+- This follows the same design format but whilst the locked content has a small red badge, this has a monochromtaic badge informing the user that it's free. Hyperlinks have been differentiated from the main text with a black colour.
+<br/>
+<br/>
+
+- **Free playlist**
+![playlist](assets/images/readme_images/episode_playlist.png)
+- Placing the support button alongside the full list of free episodes is an attempt at reciprocity: 'here, have all this free content, it would be great if you could give something back in return' etc.
+<br/>
+<br/>
+
+## About
+![playlist](assets/images/readme_images/about.png)
+I've used the same heading font for their names to tie it to the podcasts title branding. I'd like to add more details to this in time but for now this is all the hosts supplied.
+<br/>
+<br/>
+
+## Contact
+![playlist](assets/images/readme_images/contact.png)
+Fairly standard contact form lol
+<br/>
+<br/>
+## Footer
+![playlist](assets/images/readme_images/footer.png)
+The footer is sticky and displays throughout, the social media presence of the podcast is important for generating new listners and potential supporters, hence it is in a prominant place.
 <br/>
 <br/>
 <br/>
@@ -172,7 +200,7 @@ Footer and pic
 
 ## First Time Visitor Goals:
     
-    * I want to quickly understand the sites purpose, listen/subscribe and learn about the hosts.
+    * I want to quickly understand the sites purpose and to listen/subscribe.
 
 The header/hero sums up the site, with quick and easy access to listen. Information about the hosts is there.
 
@@ -215,9 +243,9 @@ The social media links will do this but a newsletter might serve the user better
 
 # FUTURE EXPANSION
 
-Rather than a playlist of all the episodes, I would like to embed each episode seperatly and then dynamically load them based on the users navigational behvaiour.
+Rather than a playlist of all the episodes, I would like to embed each episode seperatly and then dynamically load them based on the users navigational behvaiour. Why?
 
-On Patreon each episode has an extensive written description and links to articles, organisations and guests social media. I’d like to include that information next to each embedded episode, with the user having the option to expand or contract to read.
+Because on Patreon each episode has an extensive written description and links to articles, organisations and guests social media. I’d like to include that information next to each embedded episode, with the user having the option to expand or contract to read.
 
 Having this data on the site, coupled with a search and filter capabilty to quickly find relevant topics, will improve the value to the user. 
 
@@ -245,9 +273,9 @@ Samsung Galaxy Tab A | Android 6.0.1 | Firefox & Samsung Internet Browser
 
 ## Validator testing
 
-**HTML:** No errors were returned in my code passing through the W3C validator, however [it did not like the official Spotify iframe embeds](assets/images/readme_images/html_spotify.png) but there isn't much I can do about that! 
+HTML: No errors were returned in my code passing through the W3C validator, however [it did not like the official Spotify iframe embeds](assets/images/readme_images/html_spotify.png) but there isn't much I can do about that! 
 
-**CSS:** No errors were found when passing through the Jigsaw W3C validator.
+CSS: No errors were found when passing through the Jigsaw W3C validator.
 <br/>
 <br/>
 
@@ -261,7 +289,7 @@ Mobile [View](assets/images/readme_images/lh_mobile.png)
 
 ## Known bugs
 
-1. I'm aware that using the header tag would be good semantic use of HTML, however for some reason, if the nav was inside the header, the nav would not stick to the top of the page. For this reason I commented out the header tag.
+1. I'm aware that using the header tag would be good semantic use of HTML however, if the nav was inside the header, the nav would not stick to the top of the page. For this reason I commented out the header tag.
 
 2. In the episodes section, the embedded spotify episode has some text beside it. Depsite a considerable amount of time trying to figure it out, I couldn't center-align the text without it breaking the 'p' and 'a' sections into five columns. So instead I used an inline display property and settled to have it left-aligned on mobile.
 <br/>
