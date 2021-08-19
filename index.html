@@ -26,6 +26,15 @@
 
         <!-- CUSTOM CSS -->
         <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
+        <!-- CONTACT FORM SCRIPTS -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>   
+        <script type="text/javascript">
+            (function(){
+                emailjs.init("user_nm9oF3y1LaZ814oYB5jQQ");
+            })();
+        </script>
+
     </head>
 
     <body>
@@ -242,12 +251,12 @@
 
                 <div class="row mt-4 pb-4">
                     <div class="col ml-2 mr-2">
-                        <form action="https://formdump.codeinstitute.net/" method="POST">
+                        <form onsubmit="return sendMail(this);">
                             <input type="text" name="name" id="name" placeholder="Your name" required />
 
-                            <input type="email" name="email" id="email_address" placeholder="Your email" required />
+                            <input type="email" name="emailaddress" id="email_address" placeholder="Your email" required />
 
-                            <input type="text" placeholder="Subject" required />
+                            <input type="text" name="subject" id="subject" placeholder="Subject" required />
 
                             <textarea id="message" name="message" placeholder="Your Message..." style="min-height: 200px;" required></textarea>
 
@@ -272,6 +281,9 @@
                 </div>
             </div>
         </footer>
+
+        <!-- JS for contact form to work -->
+        <script src="assets/js/sendEmail.js"></script>
 
         <!-- JS script for Modal, from here: https://stackoverflow.com/questions/17142790/bootstrap-modal-not-working-at-all-->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
