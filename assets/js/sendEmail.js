@@ -12,7 +12,7 @@ function sendMail(contactForm) {
         function(error) {
             console.log('failed, loser', error);
         }
-    );
+    )
     return false;
 };
 
