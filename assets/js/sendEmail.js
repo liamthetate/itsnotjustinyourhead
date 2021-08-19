@@ -14,9 +14,9 @@ function sendMail(contactForm) {
         }
     );
     return false;
-}
+};
 
 function resetAndConfirm() {
     document.getElementById('submit_btn').value = "Message sent!";
     document.getElementById('contact-form').reset();
-}
+};
