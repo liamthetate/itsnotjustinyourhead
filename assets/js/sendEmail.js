@@ -7,16 +7,11 @@ function sendMail(contactForm) {
     })
     .then(
         function () {
-            alert("success");
+            alert("Message sent!");
             let submitButtonContact = document.getElementById("submit-btn");
             submitButtonContact.innerHTML = "Message sent!";
             document.getElementById("submit-btn").disabled = true;
-        },
-        function () {
-            alert("Error Please Try Again!")
-            console.log("FAILED");
-        },
-        document.getElementById('contact-form').reset()
-        );
+            document.getElementById('contact-form').reset();
+        });
     return false
 }
