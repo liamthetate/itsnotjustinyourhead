@@ -17,15 +17,6 @@ function sendMail(contactForm) {
 };
 
 function resetAndConfirm() {
-    if (
-        document.getElementById('from_name').value === "" || 
-        document.getElementById('from_email').value === "" ||
-        document.getElementById('subject').value === "" ||
-        document.getElementById('message').value === ""
-        ) {
-            document.getElementById('submit_btn').value = "Missing fields!";
-    } else {
-        document.getElementById('submit_btn').value = "Message sent!";
-        document.getElementById('contact-form').reset();
-        }
+    document.getElementById('submit_btn').value = "Message sent!";
+    document.getElementById('contact-form').reset();
 };
