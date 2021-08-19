@@ -6,15 +6,15 @@ function sendMail(contactForm) {
         "message": contactForm.message.value,
     })
     .then(
-        function (response) {
+        function () {
             alert("success");
             let submitButtonContact = document.getElementById("submit-btn");
             submitButtonContact.innerHTML = "Message sent!";
             document.getElementById("submit-btn").disabled = true;
         },
-        function (error) {
+        function () {
             alert("Error Please Try Again!")
-            console.log("FAILED", error);
+            console.log("FAILED");
         },
         document.getElementById('contact-form').reset()
         );
