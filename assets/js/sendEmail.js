@@ -6,15 +6,16 @@ function sendMail(contactForm) {
         "message": contactForm.message.value,
     })
     .then(
-        resetAndConfirm(),
         function(response) {
             console.log('worked!', response);
+            resetAndConfirm()
         },
         function(error) {
             console.log('failed, loser', error);
-        });
+        }
+    );
     return false;
-};
+}
 
 function resetAndConfirm() {
     document.getElementById('submit_btn').value = "Message sent!";
