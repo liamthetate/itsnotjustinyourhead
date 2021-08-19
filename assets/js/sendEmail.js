@@ -4,8 +4,8 @@ function sendMail(contactForm) {
         "from_email": contactForm.emailaddress.value,
         "subject": contactForm.subject.value,
         "message": contactForm.message.value,
-        resetAndConfirm()
     })
+    resetAndConfirm()
     .then(
         function(response) {
             console.log('worked!', response);
