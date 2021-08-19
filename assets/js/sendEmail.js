@@ -8,6 +8,7 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log('worked!', response);
+            document.getElementById('submit_btn').value = "Message sent!"
             document.getElementById('contact-form').reset();
             document.getElementById('onSubmitText').innerHTML = "<p>Message sent!</p>";
         },
