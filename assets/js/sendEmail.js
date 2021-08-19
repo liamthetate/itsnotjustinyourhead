@@ -17,6 +17,6 @@ function sendMail(contactForm) {
 
 function resetAndConfirm() {
     document.getElementById('submit_btn').value = "Message sent!"
+    document.getElementById('submit_btn').id = 'btn-confirm';
     document.getElementById('contact-form').reset();
-    document.getElementById('onSubmitText').innerHTML = "<p>Message sent!</p>";
 }

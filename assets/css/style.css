@@ -132,6 +132,11 @@ a:hover {
     box-shadow: none;
 }
 
+#btn-confirm {
+    background-color: #b1ffbb;
+    color: #000000;
+}
+
 /*----------------------------------------- NavBar */
 
 .no-curve {
