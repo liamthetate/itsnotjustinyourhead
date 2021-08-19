@@ -8,18 +8,15 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log('worked!', response);
-            document.getElementById('submit_btn').value = "Message sent!";
-            document.getElementById('contact-form').reset();
         },
         function(error) {
             console.log('failed, loser', error);
         });
-    /*return false;*/
+    resetAndConfirm()
+    return false;
 };
 
-/*
 function resetAndConfirm() {
     document.getElementById('submit_btn').value = "Message sent!";
     document.getElementById('contact-form').reset();
 }
-*/
