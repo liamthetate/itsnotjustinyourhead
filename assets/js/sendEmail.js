@@ -7,14 +7,14 @@ function sendMail(contactForm) {
     })
     .then(
         function(response) {
-            console.log('worked!', response);
+            console.log("SUCCESS", response);
         },
         function(error) {
-            console.log('failed, loser', error);
+            console.log("FAILED", error);
         }
     );
-    return false;
-}
+    return false;  // To block from loading a new page
+};
 
 function resetAndConfirm() {
     document.getElementById('submit_btn').value = "Message sent!";
