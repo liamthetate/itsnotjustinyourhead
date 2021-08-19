@@ -15,10 +15,6 @@ function sendMail(contactForm) {
     return false;
 }
 
-"" = contactForm.name.value,
-"" = contactForm.emailaddress.value,
-"" = contactForm.subject.value,
-"" = contactForm.message.value
 "Sent!" = contactForm.submit_button.value
 
 
