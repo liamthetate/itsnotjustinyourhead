@@ -15,5 +15,6 @@ function sendMail(contactForm) {
     return false;
 };
 
-"Sent!" = contactForm.submit_btn.value;
+$("#submit-btn").html(
+    "Message Sent!");
 
