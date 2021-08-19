@@ -5,8 +5,8 @@ function sendMail(contactForm) {
         "subject": contactForm.subject.value,
         "message": contactForm.message.value,
     })
-    resetAndConfirm()
     .then(
+        resetAndConfirm(),
         function(response) {
             console.log('worked!', response);
         },
