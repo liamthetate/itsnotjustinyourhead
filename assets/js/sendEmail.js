@@ -9,6 +9,7 @@ function sendMail(contactForm) {
         alert("Message sent!"),
         document.getElementById("submit-btn").disabled = true,
         document.getElementById('contact-form').reset(),
+        document.getElementById("submit-btn").value = "Message sent!",
     )
     return false
 }
