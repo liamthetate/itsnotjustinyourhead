@@ -8,13 +8,12 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log('worked!', response);
+            document.getElementById('contact-form').reset();
+            document.getElementById('onSubmitText').innerHTML = "Message sent!";
         },
         function(error) {
             console.log('failed, loser', error);
         });
     return false;
 };
-
-$("#submit-btn").html(
-    "Message Sent!");
 

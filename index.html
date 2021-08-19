@@ -251,7 +251,7 @@
 
                 <div class="row mt-4 pb-4">
                     <div class="col ml-2 mr-2">
-                        <form onsubmit="return sendMail(this);">
+                        <form id="contact-form" onsubmit="return sendMail(this);">
                             <input type="text" name="name" id="name" placeholder="Your name" required />
 
                             <input type="email" name="emailaddress" id="email_address" placeholder="Your email" required />
@@ -261,6 +261,8 @@
                             <textarea id="message" name="message" placeholder="Your Message..." style="min-height: 200px;" required></textarea>
 
                             <input type="submit" name="submit_btn" id="submit_btn" value="Send" class="mb-4" />
+
+                            <div id="onSubmitText"></div>
                         </form>
                     </div>
                 </div>
