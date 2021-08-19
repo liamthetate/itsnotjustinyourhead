@@ -13,7 +13,6 @@ function sendMail(contactForm) {
             console.log('failed, loser', error);
         }
     );
-    resetAndConfirm();
     return false;
 };
 
