@@ -6,12 +6,9 @@ function sendMail(contactForm) {
         "message": contactForm.message.value,
     })
     .then(
-        function () {
-            alert("Message sent!");
-            let submitButtonContact = document.getElementById("submit-btn");
-            submitButtonContact.innerHTML = "Message sent!";
-            document.getElementById("submit-btn").disabled = true;
-            document.getElementById('contact-form').reset();
-        });
+        alert("Message sent!"),
+        document.getElementById("submit-btn").disabled = true,
+        document.getElementById('contact-form').reset(),
+    )
     return false
 }
