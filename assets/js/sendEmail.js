@@ -3,7 +3,8 @@ function sendMail(contactForm) {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
         "subject": contactForm.subject.value,
-        "message": contactForm.message.value
+        "message": contactForm.message.value,
+        resetAndConfirm()
     })
     .then(
         function(response) {
@@ -12,7 +13,6 @@ function sendMail(contactForm) {
         function(error) {
             console.log('failed, loser', error);
         });
-    resetAndConfirm()
     return false;
 };
 
