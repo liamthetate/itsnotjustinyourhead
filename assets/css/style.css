@@ -161,6 +161,46 @@ a:hover {
     font-size: 1.25rem;
 }
 
+.search-bar {
+    margin: 0px;
+    padding: 5px;
+    font-size: 17px;
+    display:inline;
+    width:90%;
+    border-radius: 100px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+}
+
+* {
+    outline: none;
+}
+    
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+border: none;
+}
+
+.search-submit-btn {
+    margin: 0px;
+    padding: 5px;
+    background-color:white;
+    border: none;
+    display:inline;
+}
+
+.search-submit-btn:hover {
+    background-color:white;
+    color:grey;
+}
+
+.search-feature {
+    padding-left:25px;
+}
+
 /*----------------------------------------- Layout: General */
 
 .container-fluid {
